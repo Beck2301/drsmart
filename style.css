@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+  nav {
+    height: 100% !important;
+  }
+
+  .drimage {
+    /* image 1 */
+
+    position: absolute !important;
+    height: 178px !important;
+    width: 157px !important;
+
+    left: 14px !important;
+    top: -25px !important;
+  }
+
+  /* Rectangle 3 */
+  .rectangulo1 {
+      margin-top: 0px !important;
+    position: absolute !important;
+    width: 373px !important;
+    height: 111px !important;
+    left: 23px !important;
+    top: 144px !important;
+
+    background: #28acde !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 25px !important;
+  }
+  .logoim {
+    display: none;
+  }
+
+  .lgimage{
+    /* logo */
+
+position: absolute !important;
+width: 158px !important;
+height: 84px !important;
+left: 190px !important;
+top: 40px !important;
+
+
+
+  }
+}
+
+.rectangulo1 {
+  /* Rectangle 2 */
+
+  margin-top: 140px;
+  padding: 75px;
+  background: #28acde;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.drimage {
+  /* image 1 */
+
+  position: absolute;
+  width: 408px;
+  height: 450px;
+  left: 250px;
+  top: 75px;
+}
